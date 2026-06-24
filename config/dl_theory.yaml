@@ -1,0 +1,134 @@
+# arXiv 搜索配置
+arxiv:
+  # 研究领域类别 (可以是多个)
+  categories:
+    - "cs.LG"    # Machine Learning (机器学习核心)
+    - "stat.ML"  # Machine Learning (统计视角的机器学习，理论研究居多)
+    - "math.OC"  # Optimization and Control (优化与控制库，理论中常见)
+    - "cs.AI"    # Artificial Intelligence (综合AI)
+  
+  # 关键词过滤 (可选，为空则不过滤)
+  keywords:
+    required:
+      - "neural network"
+      
+    optional:
+      - "over-parameterization"
+      - "theory"
+      - "generalization"
+      - "convergence"
+      - "NTK"
+      - "neural tangent kernel"
+      - "implicit bias"
+      - "implicit regularization"
+      - "landscape"
+      - "expressivity"
+      - "optimization"
+  
+  # 每天获取的最大论文数量
+  max_results: 20
+  
+  # 排序方式: submittedDate (提交日期) 或 relevance (相关性)
+  sort_by: "submittedDate"
+  
+  # 排序顺序: descending 或 ascending
+  sort_order: "descending"
+
+# LLM 配置
+llm:
+  # 提供商: openai, gemini, claude, deepseek, vllm
+  provider: "deepseek"
+  
+  # OpenAI 配置
+  openai:
+    api_key: ""  # 在 .env 文件中设置
+    model: "gpt-4o-mini"  # gpt-4, gpt-4o, gpt-3.5-turbo
+    base_url: ""  # 可选，用于代理或自定义端点
+    temperature: 0.7
+    max_tokens: 1500
+  
+  # Google Gemini 配置
+  gemini:
+    api_key: ""  # 在 .env 文件中设置
+    model: "gemini-1.5-flash"  # gemini-pro, gemini-1.5-flash, gemini-1.5-pro
+    temperature: 0.7
+    max_tokens: 1500
+  
+  # Anthropic Claude 配置
+  claude:
+    api_key: ""  # 在 .env 文件中设置
+    model: "claude-3-5-sonnet-20241022"  # claude-3-opus, claude-3-sonnet, claude-3-haiku
+    temperature: 0.7
+    max_tokens: 1500
+  
+  # DeepSeek 配置
+  deepseek:
+    api_key: ""  # 在 .env 文件中设置
+    model: "deepseek-ai/DeepSeek-V3.2"
+    base_url: "https://api.siliconflow.cn/v1"
+    temperature: 0.7
+    max_tokens: 1500
+  
+  # vLLM (OpenAI 兼容 API)
+  vllm:
+    api_key: "EMPTY"  # vLLM 通常不需要 API Key
+    model: "gpt-oss-120b"  # 你部署的模型名称 example: gpt-oss-120b
+    base_url: "http://101.43.162.3:30207/v1"  # vLLM 服务地址 example: http://101.43.162.3:30207/v1
+    temperature: 0.2
+    max_tokens: 130000
+
+# Web 服务配置
+web:
+  host: "0.0.0.0"
+  port: 5000
+  debug: true
+  title: "Daily arXiv - Research Tracker"
+  description: "每日追踪最新的 强化学习 研究论文"
+
+# 调度配置
+scheduler:
+  # 是否启用自动调度
+  enabled: true
+  
+  # 运行时间 (24小时制, HH:MM 格式)
+  run_time: "05:45"
+  
+  # 时区
+  timezone: "Asia/Shanghai"
+  
+  # 启动时是否立即运行一次
+  run_on_start: true
+  
+  # 邮件通知配置 (可选)
+  notification:
+    enabled: true
+    email:
+      smtp_server: "smtp.qq.com"
+      smtp_port: 465 # QQ 邮箱推荐使用 SSL (465)
+      sender: "3564679832@qq.com"  # 发件人邮箱
+      password: ""  # 在 .env 文件中设置 EMAIL_PASSWORD (注意：QQ邮箱必须填授权码)
+      recipients:  # 收件人列表
+        - "3564679832@qq.com"
+      on_success: true  # 成功时发送通知
+      on_failure: true  # 失败时发送通知
+
+# 数据存储配置
+storage:
+  # 存储类型: json 或 sqlite
+  type: "json"
+  
+  # JSON 存储路径
+  json_path: "data/papers"
+  
+  # SQLite 数据库路径
+  sqlite_path: "data/arxiv.db"
+  
+  # 保留历史数据的天数 (0 表示永久保留)
+  retention_days: 30
+
+# 日志配置
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/daily_arxiv.log"
+  console: true

@@ -1,0 +1,414 @@
+{
+  "date": "2026-06-18",
+  "paper_count": 7,
+  "keywords": [
+    {
+      "keyword": "gnns",
+      "score": 0.14990133803060018
+    },
+    {
+      "keyword": "functional",
+      "score": 0.13071056887215327
+    },
+    {
+      "keyword": "linear",
+      "score": 0.12601679430532867
+    },
+    {
+      "keyword": "networks",
+      "score": 0.11505660536253841
+    },
+    {
+      "keyword": "parameter",
+      "score": 0.10185189589586802
+    },
+    {
+      "keyword": "training",
+      "score": 0.10158238296130032
+    },
+    {
+      "keyword": "benchmarks",
+      "score": 0.09799247137966624
+    },
+    {
+      "keyword": "learning",
+      "score": 0.09702380712375996
+    },
+    {
+      "keyword": "space",
+      "score": 0.09450875144082443
+    },
+    {
+      "keyword": "boundary",
+      "score": 0.09188681205016591
+    },
+    {
+      "keyword": "informed",
+      "score": 0.09167071473295617
+    },
+    {
+      "keyword": "informed neural",
+      "score": 0.09167071473295617
+    },
+    {
+      "keyword": "physics",
+      "score": 0.09167071473295617
+    },
+    {
+      "keyword": "physics informed",
+      "score": 0.09167071473295617
+    },
+    {
+      "keyword": "neural networks",
+      "score": 0.08785284990299226
+    },
+    {
+      "keyword": "network",
+      "score": 0.08662425250355033
+    },
+    {
+      "keyword": "accuracy",
+      "score": 0.08572578946395999
+    },
+    {
+      "keyword": "neural network",
+      "score": 0.08212226724520136
+    },
+    {
+      "keyword": "algorithm",
+      "score": 0.08188717872379032
+    },
+    {
+      "keyword": "graph",
+      "score": 0.07844841735480215
+    },
+    {
+      "keyword": "architectural",
+      "score": 0.074217555119979
+    },
+    {
+      "keyword": "non",
+      "score": 0.07358223744152922
+    },
+    {
+      "keyword": "feature",
+      "score": 0.07137547447866815
+    },
+    {
+      "keyword": "solvers",
+      "score": 0.07033412739155856
+    },
+    {
+      "keyword": "problems",
+      "score": 0.0702207209764202
+    },
+    {
+      "keyword": "positive",
+      "score": 0.06810867256538232
+    },
+    {
+      "keyword": "mlp",
+      "score": 0.0665480896024423
+    },
+    {
+      "keyword": "existing",
+      "score": 0.06649321462944348
+    },
+    {
+      "keyword": "cost",
+      "score": 0.0653155125638985
+    },
+    {
+      "keyword": "datasets",
+      "score": 0.0653155125638985
+    },
+    {
+      "keyword": "injective",
+      "score": 0.06423427959728653
+    },
+    {
+      "keyword": "across",
+      "score": 0.06387927249430325
+    },
+    {
+      "keyword": "two",
+      "score": 0.06241735511369903
+    },
+    {
+      "keyword": "neighborhood",
+      "score": 0.06214187902114648
+    },
+    {
+      "keyword": "per",
+      "score": 0.06214187902114648
+    },
+    {
+      "keyword": "rule",
+      "score": 0.06038433207484681
+    },
+    {
+      "keyword": "rather",
+      "score": 0.05967672494405891
+    },
+    {
+      "keyword": "higher",
+      "score": 0.05858312273684034
+    },
+    {
+      "keyword": "equivalent",
+      "score": 0.05832001588489437
+    },
+    {
+      "keyword": "graph neural",
+      "score": 0.057087438846350584
+    },
+    {
+      "keyword": "gradient",
+      "score": 0.056503091401306875
+    },
+    {
+      "keyword": "functions",
+      "score": 0.05609388281111084
+    },
+    {
+      "keyword": "reduces",
+      "score": 0.05206325217830754
+    },
+    {
+      "keyword": "standard",
+      "score": 0.05206325217830754
+    },
+    {
+      "keyword": "principled",
+      "score": 0.051101374806382875
+    },
+    {
+      "keyword": "substantially",
+      "score": 0.051101374806382875
+    },
+    {
+      "keyword": "well",
+      "score": 0.046371049428337016
+    },
+    {
+      "keyword": "state",
+      "score": 0.03954832347415112
+    },
+    {
+      "keyword": "random",
+      "score": 0.03831574643560733
+    },
+    {
+      "keyword": "representations",
+      "score": 0.034817998096105265
+    }
+  ],
+  "topics": [
+    {
+      "topic_id": 1,
+      "keywords": [
+        "learning",
+        "algorithm",
+        "training",
+        "solvers",
+        "boundary",
+        "rule",
+        "higher",
+        "classical",
+        "whereas",
+        "non"
+      ],
+      "weights": [
+        3.201060644053419,
+        2.2009864893186513,
+        2.200819117285331,
+        2.2006408225992087,
+        2.200509724017003,
+        1.2004277740149512,
+        1.2004181645798082,
+        1.2003676044700557,
+        1.2003676044700557,
+        1.200363532367572
+      ]
+    },
+    {
+      "topic_id": 2,
+      "keywords": [
+        "benchmarks",
+        "accuracy",
+        "linear",
+        "space",
+        "rather",
+        "across",
+        "two",
+        "gradient",
+        "reduces",
+        "standard"
+      ],
+      "weights": [
+        5.199991660874963,
+        4.20060019994703,
+        4.200261020097642,
+        4.200179799549665,
+        3.1999912295846835,
+        2.2004745418969214,
+        2.2003017162113943,
+        2.2001288377451234,
+        2.200117540236663,
+        2.200117540236663
+      ]
+    },
+    {
+      "topic_id": 3,
+      "keywords": [
+        "functional",
+        "parameter",
+        "linear",
+        "mlp",
+        "per",
+        "neighborhood",
+        "non",
+        "feature",
+        "alignment",
+        "empirically"
+      ],
+      "weights": [
+        5.199990696469099,
+        4.200522312581486,
+        3.1997229103973828,
+        2.2002566651933506,
+        2.200200333244049,
+        2.200200333244049,
+        2.2001225378183342,
+        2.200062522875353,
+        2.1999903630380775,
+        2.1999903630380775
+      ]
+    },
+    {
+      "topic_id": 4,
+      "keywords": [
+        "gnns",
+        "networks",
+        "physics",
+        "informed",
+        "positive",
+        "injective",
+        "functions",
+        "network",
+        "problems",
+        "equivalent"
+      ],
+      "weights": [
+        6.201248368749654,
+        5.201460661796979,
+        3.2002875340877854,
+        3.2002875340877854,
+        2.2006447751298435,
+        2.200518729250564,
+        2.200511133850364,
+        2.200386582681602,
+        2.200258688560118,
+        2.2002396961973987
+      ]
+    },
+    {
+      "topic_id": 5,
+      "keywords": [
+        "network",
+        "across",
+        "positive",
+        "non",
+        "higher",
+        "problems",
+        "rule",
+        "formulation",
+        "widely",
+        "configurations"
+      ],
+      "weights": [
+        0.20002018973225683,
+        0.20001946556803754,
+        0.20001577127289127,
+        0.2000154074421319,
+        0.20001496958774542,
+        0.20001482804365847,
+        0.20001451948869475,
+        0.20001451156015676,
+        0.20001406133207061,
+        0.20001406133207061
+      ]
+    }
+  ],
+  "statistics": {
+    "total_papers": 7,
+    "total_authors": 20,
+    "total_categories": 8,
+    "category_distribution": {
+      "cs.LG": 6,
+      "cs.AI": 3,
+      "math.NA": 2,
+      "physics.comp-ph": 2,
+      "cs.CL": 1,
+      "cs.SI": 1,
+      "q-fin.CP": 1,
+      "q-fin.PR": 1
+    },
+    "top_authors": {
+      "Gbenga T. Awojinrin": 1,
+      "Abdul-Akeem Olawoyin": 1,
+      "Rami M. Younis": 1,
+      "Shayan Dodge": 1,
+      "Alessandro Formisano": 1,
+      "Sami Barmada": 1,
+      "Mikhail Krasnov": 1,
+      "Carolina Fortuna": 1,
+      "Blaž Bertalanič": 1,
+      "Przemysław Andrzej Wałęga": 1
+    },
+    "top_words": {
+      "neural": 12,
+      "networks": 8,
+      "gnns": 8,
+      "stopping": 7,
+      "linear": 6,
+      "network": 6,
+      "training": 6,
+      "encodings": 6,
+      "accuracy": 5,
+      "benchmarks": 5,
+      "parameter": 5,
+      "monotonicity": 5,
+      "functional": 5,
+      "logical": 5,
+      "classes": 5,
+      "positional": 5,
+      "features": 5,
+      "nonlinear": 4,
+      "physicsinformed": 4,
+      "trial": 4,
+      "space": 4,
+      "across": 4,
+      "problems": 4,
+      "inivpinn": 4,
+      "boundary": 4,
+      "architectural": 4,
+      "monotone": 4,
+      "expressiveness": 4,
+      "graph": 4,
+      "homomorphisms": 4
+    },
+    "time_distribution": {
+      "2026-06-16": 7
+    },
+    "prolific_authors": {}
+  },
+  "wordcloud_path": "data/analysis/wordcloud_2026-06-18.png",
+  "llm_analysis": {
+    "hotspots": "生成失败: Error code: 503 - {'code': 50508, 'message': 'System is too busy now. Please try again later.', 'data': None}",
+    "trends": "生成失败: Error code: 503 - {'code': 50508, 'message': 'System is too busy now. Please try again later.', 'data': None}",
+    "future_directions": "生成失败: Error code: 503 - {'code': 50508, 'message': 'System is too busy now. Please try again later.', 'data': None}",
+    "research_ideas": "生成失败: Error code: 503 - {'code': 50508, 'message': 'System is too busy now. Please try again later.', 'data': None}"
+  },
+  "generated_at": "2026-06-18T06:47:01.561881"
+}
