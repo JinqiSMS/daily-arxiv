@@ -1,6 +1,21 @@
 
 # Daily arXiv – AI Research Tracker 📚🤖
 
+## quick stark
+
+在项目根目录配置 ```.env``` 文件：
+
+```txt
+DEEPSEEK_API_KEY=sk-j*dxbnzbetrgrhx*nte*chbebaum**wzf*heumi**dlitsjv
+EMAIL_PASSWORD=npjb*s*rgvz*chgi
+```
+
+然后运行
+
+```bash
+python scheduler.py --config config/dl_theory.yaml
+```
+
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![arXiv](https://img.shields.io/badge/arXiv-cs.AI-b31b1b.svg)](https://arxiv.org/list/cs.AI/recent)
